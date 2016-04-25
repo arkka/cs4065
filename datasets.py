@@ -1,7 +1,7 @@
 import os
 
 class CS4065_Dataset(object):
-  PATH_DATASETS = '/var/opt/pynb_data/cs4065'
+  PATH_DATASETS = '/Users/arkkadhiratara/Workspaces/cs4065/datasets/'
 
   def __init__(self):
     pass
