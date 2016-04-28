@@ -14,12 +14,22 @@ Alessio Bazzica a.bazzica@tudelft.nl
 https://www.continuum.io/downloads
 2. Create virtual environment
 ```
-conda create -n opencv numpy scipy scikit-learn matplotlib python=3
-source activate opencv
-conda install -c https://conda.binstar.org/menpo opencv3
+conda create -n opencv numpy scipy scikit-learn matplotlib python=2
+conda install -c https://conda.binstar.org/menpo opencv
 ```
 
 3. Start virtual environment
 ```
 source activate opencv
+```
+
+4. install jupyter
+```
+conda install jupyter
+```
+
+5. Run available notebooks using jupyter
+```
+jupyter notebook
+
 ```
